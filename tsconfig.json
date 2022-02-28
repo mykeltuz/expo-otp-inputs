@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "react-native-otp-inputs": ["./src/index"]
+      "expo-otp-inputs": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
