@@ -1,4 +1,4 @@
-# react-native-otp-inputs
+# expo-otp-inputs
 
 ![npm](https://img.shields.io/npm/dw/react-native-otp-inputs.svg)
 ![npm](https://img.shields.io/npm/v/react-native-otp-inputs.svg)
@@ -9,14 +9,14 @@
 
 ## Description
 
-`react-native-otp-inputs` is fully customizable, React-Native package, that provides solution for One-time password feature with user friendly events like moving to previous input with backspace or going to next when filled in. It supports pasting and otp code into inputs
+`expo-otp-inputs` is fully customizable, React-Native package, that provides solution for One-time password feature with user friendly events like moving to previous input with backspace or going to next when filled in. It supports pasting and otp code into inputs
 
 ## Installation
 
 Supported version: `react-native >= 0.59.0`
 
 ```bash
-$ yarn add react-native-otp-inputs expo-clipboard
+$ yarn add expo-otp-inputs expo-clipboard
 ```
 
 ## Basic usage
@@ -24,7 +24,7 @@ $ yarn add react-native-otp-inputs expo-clipboard
 ```js
 import React, { Component } from 'react';
 import { View } from 'react-native';
-import OtpInputs from 'react-native-otp-inputs';
+import OtpInputs from 'expo-otp-inputs';
 
 export default class App extends Component {
   render() {
@@ -45,4 +45,4 @@ export default class App extends Component {
 ### Contributors
 
 Great thanks to :
-[@kantorm](https://github.com/kantorm).
+[@kantorm](https://github.com/kantorm). For the creation of React-Native-Otp-Inputs of which this module is derived from
