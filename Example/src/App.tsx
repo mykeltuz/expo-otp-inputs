@@ -2,7 +2,7 @@ import React, { RefObject, useRef, useState } from 'react';
 import { ScrollView, StyleSheet, Button } from 'react-native';
 
 // @ts-ignore
-import OtpInputs from 'react-native-otp-inputs';
+import OtpInputs from 'expo-otp-inputs';
 
 const App = () => {
   const otpRef: RefObject<OtpInputs> = useRef();
