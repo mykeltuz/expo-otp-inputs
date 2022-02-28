@@ -1,5 +1,16 @@
 # Changelog
 
+
+## v7.0.1 (28/02/2022)
+
+`expo-clipboard` Is used to replace `@react-native-community/clipboard` to allow for this module to support Expo
+
+Now installation process should be:
+
+```bash
+$ yarn add expo-clipboard
+```
+
 ## v7.0.0 (31/03/2021)
 
 `@react-native-community/clipboard` has been changed to `@react-native-clipboard/clipboard`.
